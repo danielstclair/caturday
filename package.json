@@ -8,6 +8,7 @@
     "start": "env-cmd -f .env.yaml next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "env-cmd": "^10.1.0",
     "next": "11.0.1",
     "react": "17.0.2",
