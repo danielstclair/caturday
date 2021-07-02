@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "env-cmd -f .env.yaml next dev",
+    "build": "env-cmd -f .env.yaml next build",
+    "start": "env-cmd -f .env.yaml next start"
   },
   "dependencies": {
+    "env-cmd": "^10.1.0",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
